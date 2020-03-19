@@ -1,12 +1,13 @@
 <project type="bio">
-  <property name="target.model" value="genomic"/>
-  <property name="common.os.prefix" value="common"/>
+  <property name="target.model" value="genomic"></property>
+  <property name="common.os.prefix" value="common"></property>
   <sources>
-    <source name="Pig-Ssc10_2-QTL-Associations" type="gff" dump="true"/>
-      <property name="gff3.taxonId" value="9823"/>
-      <property name="src.data.dir" location="/home/apache/intermine3/ssc10_2/data/QTL/*gff3"/>
-      <property name="gff3.dataSourceName" value="AnimalGenome.ORG"/>
-      <property name="gff3.dataSetTitle" value="Animal QTLdb Data Release 42"/>
-      <property name="gff3.seqClsName" value="Chr.X"/>
+    <source name="Pig-Ssc10_2-QTL-Associations" type="gff" dump="true" >
+      <property name="gff3.taxonId" value="9823"></property>
+      <property name="src.data.dir" location="/home/apache/intermine3/ssc10_2/data/QTL"></property>
+      <property name="gff3.dataSourceName" value="AnimalGenome.ORG"></property>
+      <property name="gff3.dataSetTitle" value="Animal QTLdb Data Release 42"></property>
+      <property name="gff3.seqClsName" value="Chromosome"></property>
+    </source>
   </sources>
 </project>
